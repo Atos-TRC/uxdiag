@@ -3,6 +3,8 @@
 Research PoC demonstrating `RegisterUserApiHook` — an undocumented export of
 `user32.dll` — disguised as a harmless diagnostic logging tool.
 
+**Tested on**: Microsoft Windows `10.0.26200.9911` (`win32kfull.sys` version `10.0.26100.9711`) and earlier.
+
 ## How it works
 
 `win32kfull!_RegisterUserApiHook` registers a user-mode routine that win32k
